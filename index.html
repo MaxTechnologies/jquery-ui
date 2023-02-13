@@ -59,22 +59,16 @@
 <h1>YOUR COMPONENTS:</h1>
 
 
-
-
 <!-- Autocomplete -->
 <h2 class="demoHeaders">Autocomplete</h2>
 <div>
 	<input id="autocomplete" title="type &quot;a&quot;">
 </div>
 
-
-
 <!-- Button -->
 <h2 class="demoHeaders">Button</h2>
 <button id="button">A button element</button>
 <button id="button-icon">An icon-only button</button>
-
-
 
 <!-- Checkboxradio -->
 <h2 class="demoHeaders">Checkboxradio</h2>
@@ -85,8 +79,6 @@
 		<input type="radio" id="radio3" name="radio"><label for="radio3">Choice 3</label>
 	</div>
 </form>
-
-
 
 <!-- Controlgroup -->
 <h2 class="demoHeaders">Controlgroup</h2>
@@ -115,9 +107,6 @@
 </fieldset>
 
 
-
-
-
 <h2 class="demoHeaders">Dialog</h2>
 <p>
 	<button id="dialog-link" class="ui-button ui-corner-all ui-widget">
@@ -141,7 +130,6 @@
 <div id="dialog" title="Dialog Title">
 	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
 </div>
-
 
 
 <h2 class="demoHeaders">Framework Icons (content color preview)</h2>
@@ -321,21 +309,13 @@
 	<li class="ui-state-default ui-corner-all" title=".ui-icon-grip-diagonal-se"><span class="ui-icon ui-icon-grip-diagonal-se"></span></li>
 </ul>
 
-
 <!-- Slider -->
 <h2 class="demoHeaders">Slider</h2>
 <div id="slider"></div>
 
-
-
 <!-- Datepicker -->
 <h2 class="demoHeaders">Datepicker</h2>
 <div id="datepicker"></div>
-
-
-
-
-
 
 
 
@@ -359,8 +339,6 @@
 </ul>
 
 
-
-
 <!-- Highlight / Error -->
 <h2 class="demoHeaders">Highlight / Error</h2>
 <div class="ui-widget">
@@ -380,8 +358,6 @@
 <script src="external/jquery/jquery.js"></script>
 <script src="jquery-ui.js"></script>
 <script>
-
-
 
 var availableTags = [
 	"ActionScript",
@@ -411,24 +387,15 @@ $( "#autocomplete" ).autocomplete({
 	source: availableTags
 });
 
-
-
 $( "#button" ).button();
 $( "#button-icon" ).button({
 	icon: "ui-icon-gear",
 	showLabel: false
 });
 
-
-
 $( "#radioset" ).buttonset();
 
-
-
 $( "#controlgroup" ).controlgroup();
-
-
-
 
 
 $( "#dialog" ).dialog({
@@ -456,13 +423,9 @@ $( "#dialog-link" ).click(function( event ) {
 	event.preventDefault();
 });
 
-
-
 $( "#datepicker" ).datepicker({
 	inline: true
 });
-
-
 
 $( "#slider" ).slider({
 	range: true,
@@ -471,14 +434,7 @@ $( "#slider" ).slider({
 
 
 
-
-
-
-
 $( "#menu" ).menu();
-
-
-
 
 
 
